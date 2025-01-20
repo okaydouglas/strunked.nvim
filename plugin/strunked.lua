@@ -1,1 +1,1 @@
-print("plugin/strunked is executed")
+vim.notify("plugin/strunked is executed")
