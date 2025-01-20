@@ -6,7 +6,8 @@ Strunk & White wrote a list of 15 reminders in *The Elements of Style*.
 
 The 14th reminder, **Avoid fancy words** is excerpted here:
 
-> 14. Avoid fancy words .
+> **14. Avoid fancy words.**
+
 > Avoid the elaborate, the pretentious, the coy, and the cute. Do not be
 > tempted by a twenty-dollar word when there is a ten-center handy,
 > ready and able. Anglo-Saxon is a livelier tongue than Latin, so use
