@@ -24,11 +24,11 @@ This plugin identifies Latin based words in a document, and provides a list of A
 
 As elaborated in *The Elements of Style*:
 
->> In this, as in so many matters pertaining to style,
->> one's ear must be one's guide: *gut* is a lustier noun than *intestine*, but
->> the two words are not interchangeable, because *gut* is often inappropri-
->> ate, being too coarse for the context. Never call a stomach a tummy
->> without good reason.
+> In this, as in so many matters pertaining to style,
+> one's ear must be one's guide: *gut* is a lustier noun than *intestine*, but
+> the two words are not interchangeable, because *gut* is often inappropri-
+> ate, being too coarse for the context. Never call a stomach a tummy
+> without good reason.
 
 Use discretion when deciding whether to use one of the suggested replacements.
 
