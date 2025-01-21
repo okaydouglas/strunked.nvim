@@ -18,4 +18,8 @@ builds/
 *.swp
 *.swo
 
+#
+# Do not include security/access files
+#
 github-tokens.md
+.git-credentials
