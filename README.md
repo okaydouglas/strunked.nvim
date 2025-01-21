@@ -1,8 +1,10 @@
 # strunked.nvim
 
-A neovim plugin to convert romance words to saxon words in a document.
+A neovim plugin to convert latin/romance based words to anglo-saxon based words in a document.
 
-Strunk & White wrote a list of 15 reminders in *The Elements of Style*.
+## Rationale
+
+In part V of *The Elements of Style* Strunk & White offered an Approach to Style (With a List of Reminders).
 
 The 14th reminder, **Avoid fancy words** is excerpted here:
 
