@@ -1,5 +1,7 @@
 local M = {} -- M stands for module, a naming convention
 
+vim.notify('lua/strunked/init.lua')
+
 function M.setup(opts)
   vim.notify('setup')
   opts = opts or {}
