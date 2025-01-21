@@ -16,11 +16,13 @@ function M.setup(opts)
       print("hello, " .. opts.name)
     else
       print("hello")
-      vim.notify('hotkey pressed:', 'hello')
+      vim.notify('hotkey pressed: ' .. 'hello')
     end
   end)
 
 end
+
+vim.notify(M)
 
 return M
 
