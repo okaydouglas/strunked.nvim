@@ -1,13 +1,11 @@
+local M = {} -- M stands for module, a naming convention
 
-vim.notify('lua/strunked/init.lua')
+function M.setup(opts)
 
-function setup(opts)
-  vim.notify('setup')
   opts = opts or {}
 
   if not opts.hotkey then
-    vim.notify('assign opts.hotkey:', '<Leader>h')
-    opts.hotkey = "<Leader>h"
+    opts.hotkey = "<Leader>x"
   end
 
   vim.keymap.set("n", opts.hotkey, function()
@@ -21,11 +19,6 @@ function setup(opts)
 
 end
 
-vim.notify(M)
 
-local M = { -- M stands for module, a naming convention
-
-    setup = setup
-} 
 return M
 
