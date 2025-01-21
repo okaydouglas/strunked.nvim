@@ -1,9 +1,11 @@
 local M = {} -- M stands for module, a naming convention
 
 function M.setup(opts)
+  vim.notify('setup')
   opts = opts or {}
 
   if not opts.hotkey then
+    vim.notify('assign opts.hotkey:', '<Leader>h')
     opts.hotkey = "<Leader>h"
   end
 
@@ -12,6 +14,7 @@ function M.setup(opts)
       print("hello, " .. opts.name)
     else
       print("hello")
+      vim.notify('hotkey pressed:', 'hello')
     end
   end)
 
