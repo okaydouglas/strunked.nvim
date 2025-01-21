@@ -1,8 +1,7 @@
-local M = {} -- M stands for module, a naming convention
 
 vim.notify('lua/strunked/init.lua')
 
-function M.setup(opts)
+function setup(opts)
   vim.notify('setup')
   opts = opts or {}
 
@@ -24,5 +23,9 @@ end
 
 vim.notify(M)
 
+local M = { -- M stands for module, a naming convention
+
+    setup = setup
+} 
 return M
 
