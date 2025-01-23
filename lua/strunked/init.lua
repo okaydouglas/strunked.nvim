@@ -5,10 +5,6 @@ function M.setup(opts)
 
 end
 
--- s = "foo bar 123"
--- words = {}
--- for word in s:gmatch("%w+") do print(word) end
--- lua s = "foo bar 123";  words = {};  for word in s:gmatch("%w+") do print(word) end
 
 local ns = vim.api.nvim_create_namespace("strunked")
 
@@ -156,6 +152,7 @@ function M.suggest_word()
 
     -- Key mappings for selection
     -- We will move through the list with 'j' (down) and 'k' (up), and use 'Enter' to select
+    -- tehse keymaps will only be valid for the _G.buf buffer {the menu window}
     vim.api.nvim_buf_set_keymap(_G.buf, 'n', 'j', ':lua vim.fn.cursor(vim.fn.line(".") + 1, 1)<CR>', { noremap = true, silent = true })
     vim.api.nvim_buf_set_keymap(_G.buf, 'n', 'k', ':lua vim.fn.cursor(vim.fn.line(".") - 1, 1)<CR>', { noremap = true, silent = true })
     vim.api.nvim_buf_set_keymap(_G.buf, 'n', '<CR>', ':lua _G.close_and_replace()<CR>', { noremap = true, silent = true })
