@@ -42,5 +42,3 @@ Use discretion when deciding whether to use one of the suggested replacements.
 
 
 ## See Also
-
-delta test
