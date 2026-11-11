@@ -1,6 +1,10 @@
 # strunked.nvim
 
-A neovim plugin to convert words of Latin or Romance origin to synonyms of Germanic or Anglo-Saxon origin.
+A neovim plugin to simplify overly complex writing and make it more readable. 
+
+The plugin suggests simpler, more familiar Germanic alternatives to Latinate and Romance-derived words—for example, belly instead of abdomen, or begin instead of commence.
+
+Some common examples:
 
 | Latin/Romance-derived | Germanic/Anglo-Saxon equivalent |
 |---|---|
@@ -18,7 +22,6 @@ A neovim plugin to convert words of Latin or Romance origin to synonyms of Germa
 | Perspire | Sweat |
 | Residence | Home |
 
-The plugin suggests simpler, more familiar Germanic alternatives to Latinate and Romance-derived words—for example, belly instead of abdomen, or begin instead of commence.
 
 ## Rationale
 
