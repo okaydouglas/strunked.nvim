@@ -1,10 +1,8 @@
-# strunked.nvim
+# strunked.nvim - simplify overly complex writing
 
-A neovim plugin to simplify overly complex writing and make it more readable. 
+A Neovim plugin that identifies words of Latin or Romance origin and suggests simpler, more familiar Germanic alternatives—for example, belly instead of abdomen, or begin instead of commence.
 
-The plugin suggests simpler, more familiar Germanic alternatives to Latinate and Romance-derived words—for example, belly instead of abdomen, or begin instead of commence.
-
-Some common examples:
+More common examples:
 
 | Latin/Romance-derived | Germanic/Anglo-Saxon equivalent |
 |---|---|
