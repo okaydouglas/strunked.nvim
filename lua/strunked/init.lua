@@ -54,7 +54,7 @@ function M.check_synonyms()
                         col = start -1,
                         end_col = ending,
                         message = "Consider using a synonym: " .. synonyms[word],
-                        severity = vim.diagnostic.severity.WARN,
+                        severity = vim.diagnostic.severity.INFO,
                     })
                     start, ending = line:find(word, ending + 1)
                 end

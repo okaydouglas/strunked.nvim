@@ -1,6 +1,24 @@
 # strunked.nvim
 
-A neovim plugin to convert latin/romance based words to anglo-saxon based words in a document.
+A neovim plugin to convert words of Latin or Romance origin to synonyms of Germanic or Anglo-Saxon origin.
+
+| Latin/Romance-derived | Germanic/Anglo-Saxon equivalent |
+|---|---|
+| Abdomen | Belly |
+| Abdicate | Give up (the throne) |
+| Commence | Begin |
+| Purchase | Buy |
+| Reside | Live |
+| Observe | Watch |
+| Assist | Help |
+| Inquire | Ask |
+| Terminate | End |
+| Approximately | About |
+| Intoxicated | Drunk |
+| Perspire | Sweat |
+| Residence | Home |
+
+The plugin suggests simpler, more familiar Germanic alternatives to Latinate and Romance-derived words—for example, belly instead of abdomen, or begin instead of commence.
 
 ## Rationale
 
